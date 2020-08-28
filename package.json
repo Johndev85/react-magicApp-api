@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.jsx",
     "scripts": {
-        "build": "webpack --mode=production",
-        "start": "webpack-dev-server --mode=development --watch"
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --watch"
     },
     "keywords": [],
     "author": "",

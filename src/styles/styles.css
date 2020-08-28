@@ -6,8 +6,7 @@
 
 body {
     width: 100vw;
-    height: 100vh;
-    margin: 0 auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +16,28 @@ body {
     color: white;
 }
 
-h3 {
+.container {
+    display: grid;
+    grid-template: 100% / repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.container__card {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container__card img:hover {
+    box-shadow: 1px 2px 8px 2px #61dafb;
+}
+
+h4 {
     color: #61dafb;
+    text-align: center;
+    margin: 10px;
+}
+
+.loading {
+    font-weight: bold;
+    align-self: center;
 }
